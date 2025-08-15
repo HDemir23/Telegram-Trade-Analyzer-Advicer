@@ -1,0 +1,29 @@
+{
+  "name": "ai-trading-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Trading Bot (TypeScript Monorepo)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "pnpm -r test",
+    "lint": "eslint . --ext .ts,.js --fix",
+    "lint:check": "eslint . --ext .ts,.js",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md}\"",
+    "env:check": "node packages/config/dist/envCheck.js",
+    "bot:start": "pnpm --filter bot start",
+    "bot:webhook": "pnpm --filter bot webhook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "eslint": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "prettier": "^3.0.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "quant.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "quant.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,eAAO,MAAM,UAAU,28BAStB,CAAC;AAEF,eAAO,MAAM,cAAc,4zBAiB1B,CAAC"
+}

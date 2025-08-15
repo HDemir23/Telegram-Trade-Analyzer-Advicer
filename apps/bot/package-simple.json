@@ -1,0 +1,11 @@
+{
+  "name": "bot-simple",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx src/index-simple.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.19.2",
+    "tsx": "^4.0.0"
+  }
+}

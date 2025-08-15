@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@trade/config": ["packages/config/src"],
+      "@trade/logger": ["packages/logger/src"],
+      "@trade/marketdata": ["packages/marketdata/src"],
+      "@trade/db": ["packages/db/src"],
+      "@trade/positions": ["packages/positions/src"],
+      "@trade/indicators": ["packages/indicators/src"],
+      "@trade/strategies": ["packages/strategies/src"],
+      "@trade/types": ["packages/types/src"],
+      "@trade/ai": ["packages/ai/src"],
+      "@trade/backtest": ["packages/backtest/src"],
+      "@trade/alerts": ["packages/alerts/src"],
+      "@trade/risk": ["packages/risk/src"]
+    }
+  }
+}

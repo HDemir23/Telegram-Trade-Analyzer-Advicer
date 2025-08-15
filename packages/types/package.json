@@ -1,0 +1,13 @@
+{
+  "name": "@trade/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for the Trade bot",
+  "main": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

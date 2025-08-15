@@ -1,0 +1,513 @@
+            
+here is the last usage of /analyze as u can see it does have problems 
+so i want u to handle ai response without changing the main purpose of this bot 
+and analyze all the markets then make analyze create strategy for best profit then 
+provide user that analyze also make sure the timeframe and buy sell tp points are analyzed for maximize profit while taking minimal possible risk
+ 
+
+
+rose@Hakans-MacBook-Pro Trade % npm run bot:start
+
+> ai-trading-bot@1.0.0 bot:start
+> pnpm --filter bot start
+
+
+> bot@1.0.0 start /Users/rose/Desktop/Trade/apps/bot
+> node dist/index.js
+
+[2025-08-15 15:34:41.461 +0300] INFO: Starting AI Trading Bot...
+[2025-08-15 15:34:41.462 +0300] INFO: 🔄 Redis disabled, using in-memory session storage...
+[2025-08-15 15:34:41.462 +0300] INFO: ✅ In-memory session storage configured
+[2025-08-15 15:34:49.048 +0300] INFO: 📨 Incoming update
+[2025-08-15 15:34:49.049 +0300] INFO: 🚀 /start command triggered
+[2025-08-15 15:34:50.615 +0300] INFO: ✅ /start command completed successfully
+[2025-08-15 15:34:50.615 +0300] INFO: ✅ Update processed successfully
+📊 Starting real market data collection...
+🎯 Symbols requested: []
+🌍 Markets requested: [ 'crypto', 'spx', 'bist' ]
+📋 Final symbols to analyze: [
+  'BTCUSDT',  'ETHUSDT',   'SOLUSDT',
+  'ADAUSDT',  'DOTUSDT',   'LINKUSDT',
+  'AVAXUSDT', 'MATICUSDT', 'ATOMUSDT',
+  'FTMUSDT',  'NEARUSDT',  'SUIUSDT',
+  'ARUSDT',   'AAPL',      'MSFT',
+  'GOOGL',    'TSLA',      'NVDA',
+  'AMZN',     'META',      'NFLX',
+  'AMD',      'CRM',       'THYAO',
+  'AKBNK'
+]
+💰 Collecting real data for BTCUSDT...
+✅ BTCUSDT: $119011
+💰 Collecting real data for ETHUSDT...
+[2025-08-15 15:34:54.870 +0300] INFO: 📨 Incoming update
+✅ ETHUSDT: $4644.8
+💰 Collecting real data for SOLUSDT...
+✅ SOLUSDT: $194.31
+CoinGecko failed for SOLUSDT, trying backup API
+✅ SOLUSDT: $194.83 (Binance backup)
+💰 Collecting real data for ADAUSDT...
+CoinGecko failed for ADAUSDT, trying backup API
+✅ ADAUSDT: $0.9419 (Binance backup)
+✅ ADAUSDT: $0.9419
+CoinGecko failed for ADAUSDT, trying backup API
+✅ ADAUSDT: $0.9419 (Binance backup)
+💰 Collecting real data for DOTUSDT...
+CoinGecko failed for DOTUSDT, trying backup API
+✅ DOTUSDT: $4.014 (Binance backup)
+✅ DOTUSDT: $4.014
+CoinGecko failed for DOTUSDT, trying backup API
+✅ DOTUSDT: $4.014 (Binance backup)
+💰 Collecting real data for LINKUSDT...
+CoinGecko failed for LINKUSDT, trying backup API
+✅ LINKUSDT: $22.46 (Binance backup)
+✅ LINKUSDT: $22.46
+CoinGecko failed for LINKUSDT, trying backup API
+✅ LINKUSDT: $22.46 (Binance backup)
+💰 Collecting real data for AVAXUSDT...
+CoinGecko failed for AVAXUSDT, trying backup API
+✅ AVAXUSDT: $24.53 (Binance backup)
+✅ AVAXUSDT: $24.53
+CoinGecko failed for AVAXUSDT, trying backup API
+✅ AVAXUSDT: $24.53 (Binance backup)
+💰 Collecting real data for MATICUSDT...
+CoinGecko failed for MATICUSDT, trying backup API
+✅ MATICUSDT: $0.3794 (Binance backup)
+✅ MATICUSDT: $0.3794
+CoinGecko failed for MATICUSDT, trying backup API
+✅ MATICUSDT: $0.3794 (Binance backup)
+💰 Collecting real data for ATOMUSDT...
+CoinGecko failed for ATOMUSDT, trying backup API
+✅ ATOMUSDT: $4.511 (Binance backup)
+✅ ATOMUSDT: $4.511
+CoinGecko failed for ATOMUSDT, trying backup API
+✅ ATOMUSDT: $4.511 (Binance backup)
+💰 Collecting real data for FTMUSDT...
+CoinGecko failed for FTMUSDT, trying backup API
+✅ FTMUSDT: $0.6994 (Binance backup)
+✅ FTMUSDT: $0.6994
+CoinGecko failed for FTMUSDT, trying backup API
+✅ FTMUSDT: $0.6994 (Binance backup)
+💰 Collecting real data for NEARUSDT...
+CoinGecko failed for NEARUSDT, trying backup API
+✅ NEARUSDT: $2.785 (Binance backup)
+✅ NEARUSDT: $2.785
+CoinGecko failed for NEARUSDT, trying backup API
+✅ NEARUSDT: $2.785 (Binance backup)
+💰 Collecting real data for SUIUSDT...
+CoinGecko failed for SUIUSDT, trying backup API
+✅ SUIUSDT: $3.8435 (Binance backup)
+✅ SUIUSDT: $3.8435
+CoinGecko failed for SUIUSDT, trying backup API
+✅ SUIUSDT: $3.8446 (Binance backup)
+💰 Collecting real data for ARUSDT...
+CoinGecko failed for ARUSDT, trying backup API
+✅ ARUSDT: $7.38 (Binance backup)
+✅ ARUSDT: $7.38
+CoinGecko failed for ARUSDT, trying backup API
+✅ ARUSDT: $7.38 (Binance backup)
+💰 Collecting real data for AAPL...
+✅ AAPL: $232.78
+💰 Collecting real data for MSFT...
+✅ MSFT: $522.48
+💰 Collecting real data for GOOGL...
+✅ GOOGL: $202.94
+💰 Collecting real data for TSLA...
+✅ TSLA: $335.58
+💰 Collecting real data for NVDA...
+✅ NVDA: $182.02
+💰 Collecting real data for AMZN...
+✅ AMZN: $230.98
+💰 Collecting real data for META...
+✅ META: $782.13
+💰 Collecting real data for NFLX...
+✅ NFLX: $1230.56
+💰 Collecting real data for AMD...
+✅ AMD: $180.95
+💰 Collecting real data for CRM...
+✅ CRM: $233.37
+💰 Collecting real data for THYAO...
+✅ THYAO: $328.75
+💰 Collecting real data for AKBNK...
+✅ AKBNK: $66.7
+📈 Market data collection complete. Symbols collected: [
+  'BTCUSDT',  'ETHUSDT',   'SOLUSDT',
+  'ADAUSDT',  'DOTUSDT',   'LINKUSDT',
+  'AVAXUSDT', 'MATICUSDT', 'ATOMUSDT',
+  'FTMUSDT',  'NEARUSDT',  'SUIUSDT',
+  'ARUSDT',   'AAPL',      'MSFT',
+  'GOOGL',    'TSLA',      'NVDA',
+  'AMZN',     'META',      'NFLX',
+  'AMD',      'CRM',       'THYAO',
+  'AKBNK'
+]
+🔧 Technical data available for: [
+  'BTCUSDT',  'ETHUSDT',   'SOLUSDT',
+  'ADAUSDT',  'DOTUSDT',   'LINKUSDT',
+  'AVAXUSDT', 'MATICUSDT', 'ATOMUSDT',
+  'FTMUSDT',  'NEARUSDT',  'SUIUSDT',
+  'ARUSDT',   'AAPL',      'MSFT',
+  'GOOGL',    'TSLA',      'NVDA',
+  'AMZN',     'META',      'NFLX',
+  'AMD',      'CRM',       'THYAO',
+  'AKBNK'
+]
+💭 Sentiment data available for: [
+  'BTCUSDT',  'ETHUSDT',   'SOLUSDT',
+  'ADAUSDT',  'DOTUSDT',   'LINKUSDT',
+  'AVAXUSDT', 'MATICUSDT', 'ATOMUSDT',
+  'FTMUSDT',  'NEARUSDT',  'SUIUSDT',
+  'ARUSDT',   'AAPL',      'MSFT',
+  'GOOGL',    'TSLA',      'NVDA',
+  'AMZN',     'META',      'NFLX',
+  'AMD',      'CRM',       'THYAO',
+  'AKBNK'
+]
+🔑 OpenRouter API Key check: KEY FOUND
+🤖 Calling OpenRouter AI with Claude 3.5 Sonnet...
+📊 Request payload size: 25194 chars
+📡 OpenRouter response status: 200 OK
+🎯 OpenRouter response received, choices: 1
+✅ AI response content length: 3167 chars
+📋 Raw AI response preview: {
+  "ranking": [
+    {
+      "symbol": "SOLUSDT",
+      "market": "crypto",
+      "score": 0.82,
+      "reason": "Strong bullish trend, high RSI, positive momentum with volume support"
+    },
+    {
+  ...
+✅ AI response parsed successfully, ranking items: 3
+First attempt failed, retrying... ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "rationale",
+      "onchain"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "rationale",
+      "liquidity"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "indicator_snapshot",
+      "macd"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "indicator_snapshot",
+      "ema"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "indicator_snapshot",
+      "bb"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "SOLUSDT",
+      "indicator_snapshot",
+      "atr"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "rationale",
+      "onchain"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "rationale",
+      "liquidity"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "indicator_snapshot",
+      "macd"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "indicator_snapshot",
+      "ema"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "indicator_snapshot",
+      "bb"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "plans",
+      "MSFT",
+      "indicator_snapshot",
+      "atr"
+    ],
+    "message": "Required"
+  }
+]
+    at get error [as error] (/Users/rose/Desktop/Trade/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/types.cjs:45:31)
+    at ZodObject.parse (/Users/rose/Desktop/Trade/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/types.cjs:120:22)
+    at askMultiAssetPlan (/Users/rose/Desktop/Trade/packages/ai/dist/orchestrator.js:582:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleAnalyzeCommand (/Users/rose/Desktop/Trade/apps/bot/dist/commands/analyze.js:21:24)
+    at async /Users/rose/Desktop/Trade/apps/bot/dist/index.js:312:9
+    at async /Users/rose/Desktop/Trade/node_modules/.pnpm/grammy@1.37.0/node_modules/grammy/out/composer.js:578:13
+    at async /Users/rose/Desktop/Trade/node_modules/.pnpm/grammy@1.37.0/node_modules/grammy/out/composer.js:62:13
+    at async /Users/rose/Desktop/Trade/node_modules/.pnpm/grammy@1.37.0/node_modules/grammy/out/composer.js:578:13
+    at async /Users/rose/Desktop/Trade/node_modules/.pnpm/grammy@1.37.0/node_modules/grammy/out/composer.js:62:13 {
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  errors: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [Array],
+      message: 'Required'
+    }
+  ]
+}
+[2025-08-15 15:35:27.625 +0300] INFO: ✅ Update processed successfully

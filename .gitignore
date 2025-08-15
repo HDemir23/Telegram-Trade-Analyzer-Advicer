@@ -1,0 +1,14 @@
+
+# env & secrets
+.env
+.env.*
+*.env
+secrets/
+# node
+node_modules/
+# builds
+**/dist/
+**/.turbo/
+**/.next/
+# misc
+.DS_Store

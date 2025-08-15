@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "quant.js",
+  "sourceRoot": "",
+  "sources": [
+    "quant.ts"
+  ],
+  "names": [],
+  "mappings": ";;;AAAa,QAAA,UAAU,GAAG;;;;;;;;;CASzB,CAAC;AAEW,QAAA,cAAc,GAAG;;;;;;;;;;;;;;;;;CAiB7B,CAAC"
+}
