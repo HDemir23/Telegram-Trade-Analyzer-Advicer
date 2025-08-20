@@ -10,10 +10,6 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.test.ts"],
   "references": [
-    { "path": "../../packages/config" },
-    { "path": "../../packages/logger" },
-    { "path": "../../packages/positions" },
-    { "path": "../../packages/types" },
     { "path": "../../packages/ai" }
   ]
 }

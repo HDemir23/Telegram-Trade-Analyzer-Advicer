@@ -1037,3 +1037,44 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 *Last updated: $(date)*
+
+
+
+
+
+
+🔄 Starting optimized iterative analysis for BTCUSDT with 3 focused questions...
+❓ Question trend_momentum: Trend direction, momentum strength
+⚠️ trend_momentum failed: Error: Question timeout after 45s
+❓ Question entry_exit: Entry zones, stop placement, targets
+⚠️ trend_momentum failed: Error: Question timeout after 45s
+❓ Question entry_exit: Entry zones, stop placement, targets
+⚠️ trend_momentum failed: Error: Question timeout after 45s
+❓ Question entry_exit: Entry zones, stop placement, targets
+⚠️ trend_momentum failed: Error: Question timeout after 45s
+❓ Question entry_exit: Entry zones, stop placement, targets
+⚠️ trend_momentum failed: Error: Question timeout after 45s
+❓ Question entry_exit: Entry zones, stop placement, targets
+🔍 API Response for openai/gpt-5-mini: {
+  status: 200,
+  choices: 1,
+  usage: { prompt_tokens: 213, completion_tokens: 4783, total_tokens: 4996 },
+  error: undefined
+}
+✅ AI call successful with openai/gpt-5-mini
+🔍 API Response for openai/gpt-5-mini: {
+  status: 200,
+  choices: 1,
+  usage: { prompt_tokens: 213, completion_tokens: 5133, total_tokens: 5346 },
+  error: undefined
+}
+⚠️ entry_exit failed: Error: Question timeout after 45s
+❓ Question final_decision: Final trading decision with complete JSON
+⚠️ entry_exit failed: Error: Question timeout after 45s
+❓ Question final_decision: Final trading decision with complete JSON
+⚠️ entry_exit failed: Error: Question timeout after 45s
+❓ Question final_decision: Final trading decision with complete JSON
+⚠️ entry_exit failed: Error: Question timeout after 45s
+❓ Question final_decision: Final trading decision with complete JSON
+⚠️ entry_exit failed: Error: Question timeout after 45s
+❓ Question final_decision: Final trading decision with complete JSON

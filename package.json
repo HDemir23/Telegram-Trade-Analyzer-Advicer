@@ -12,6 +12,8 @@
     "format:check": "prettier --check \"**/*.{ts,js,json,md}\"",
     "env:check": "node packages/config/dist/envCheck.js",
     "bot:start": "pnpm --filter bot start",
+    "bot:clean": "pnpm --filter bot start:clean",
+    "bot:advanced": "pnpm --filter bot start:advanced",
     "bot:webhook": "pnpm --filter bot webhook"
   },
   "keywords": [],

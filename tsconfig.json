@@ -1,17 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "packages/config" },
-    { "path": "packages/logger" },
-    { "path": "packages/types" },
     { "path": "packages/ai" },
-    { "path": "packages/alerts" },
-    { "path": "packages/backtest" },
-    { "path": "packages/db" },
-    { "path": "packages/indicators" },
-    { "path": "packages/marketdata" },
-    { "path": "packages/risk" },
-    { "path": "packages/strategies" },
     { "path": "apps/bot" }
   ]
 }
