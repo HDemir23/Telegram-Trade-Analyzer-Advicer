@@ -12,3 +12,36 @@ node_modules/
 **/.next/
 # misc
 .DS_Store
+
+# --- added by RAf sync 2026-10-04 ---
+dist/
+build/
+.next/
+out/
+.expo/
+target/
+.turbo/
+coverage/
+*.log
+!.env.example
+!.env.sample
+!.env.template
+venv/
+.venv/
+__pycache__/
+*.pyc
+test-ledger/
+.anchor/
+.cache/
+.parcel-cache/
+.vercel/
+.idea/
+*.tsbuildinfo
+.pnpm-store/
+.gradle/
+*.pem
+id.json
+*keypair*.json
+12word*
+*mnemonic*
+.claude/settings.local.json
